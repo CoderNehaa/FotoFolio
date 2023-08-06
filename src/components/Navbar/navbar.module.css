@@ -1,0 +1,35 @@
+.navbar{
+    color: black;
+    background-color: #FF9933;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.navbar img{
+    margin: 0px 20px 0px 20px;
+    border-radius: 25%;
+    height: 60px;
+    position: absolute;
+    left: 1%;
+}
+
+.navbar span{
+    font-size: -webkit-xxx-large;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 2px;
+    padding: 5px;
+}

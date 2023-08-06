@@ -1,0 +1,90 @@
+.albumPage{
+    width: 70%;
+    text-align: center;
+    margin: 0 15% 0 15%;
+    color: black;
+}
+
+.cardBox{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 15px;
+    padding: 12px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.3px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 2px 3px #EEEEEE;
+}
+
+.cardImg{
+    height: 150px;
+    width: 250px;
+}
+
+.backIcon{
+    height: 30px;
+    width: 40px;
+    left: 12%;
+    padding: 5px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 1px #888888;
+}
+
+.addBtn{
+    height: 30px;
+    background: blue;
+    border: none;
+    margin-top: 32px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}
+
+.addBtn:hover{
+    color: blue;
+    border: 2px solid blue;
+    background: transparent;
+    
+}
+
+.icons{
+    display: none;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+.icons> div{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    padding: 2px;
+    color:white;
+    font-size: 19px;
+    border-radius: 50%;
+}
+
+.deleteIcon{
+    background-color: red;
+}
+
+.editIcon{
+    background-color: blue;
+}
+
+.card:hover>div{
+    display: flex;
+    position: absolute;
+}

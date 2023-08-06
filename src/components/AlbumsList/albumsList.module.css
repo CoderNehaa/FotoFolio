@@ -1,0 +1,87 @@
+.albumsPage{
+    margin: 0% 15% 0 15%;
+    color: black;
+}
+
+.albumsList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.addBtn{
+    height: 30px;
+    background: blue;
+    border: none;
+    margin-top: 32px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}
+
+.addBtn:hover{
+    color: blue;
+    border: 2px solid blue;
+    background: transparent;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.album{
+    height: 180px;
+    width: 210px;
+    border: 10px solid #f0f8ffa3;
+    border-top-left-radius: 15px;
+    text-align: center;
+    border-top-right-radius: 15px;
+    margin: 20px;
+}
+
+.album img{
+    height: 140px;
+    width: 210px;
+    margin-bottom: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.album:hover{
+    opacity: 0.5;
+}
+
+.albumName{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 4px;
+    margin: 0%;
+    background-color:orange;
+    border-top: 5px solid orange;
+}
+
+.deleteIcon{
+    height: 27px;
+    width: 27px;
+    margin: 18px;
+    padding: 12px;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    color: black;
+    display: none;
+    position: absolute;
+}
+
+.albumCard:hover>div{
+    display: block;
+    cursor: pointer;
+}
