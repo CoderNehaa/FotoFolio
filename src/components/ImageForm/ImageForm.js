@@ -21,7 +21,6 @@ const ImageForm = (props) => {
 
   function handleSubmit(e) {
     e.preventDefault();
-    
     if(props.editObj===null){
       // Add new Image
       const obj = {

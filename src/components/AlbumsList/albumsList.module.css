@@ -63,8 +63,7 @@
     font-weight: 500;
     padding: 4px;
     margin: 0%;
-    background-color:orange;
-    border-top: 5px solid orange;
+    background-color:#ffa5009c;
 }
 
 .deleteIcon{
@@ -78,10 +77,16 @@
     border-radius: 50%;
     color: black;
     display: none;
+    z-index: 999;
     position: absolute;
 }
 
 .albumCard:hover>div{
     display: block;
     cursor: pointer;
+}
+
+.spinnerStyle{
+    margin-left: 50%;
+    margin-top: 150px;
 }
